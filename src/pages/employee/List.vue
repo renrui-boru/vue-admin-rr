@@ -4,7 +4,7 @@
 <div>
     <el-button size="small" type="primary" @click="toAddHandler">添加</el-button>
     <el-button size="small" type="danger">批量删除</el-button>
-</div>
+
 <!--/按钮-->
 <!--表格-->
 <el-table :data="employees">
